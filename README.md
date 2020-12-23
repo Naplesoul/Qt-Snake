@@ -5,7 +5,7 @@ This is a Snake game created by Qt 5.15.1 MinGW 64-bit.
 
 Before build and run the project, check if font "BankGothic Lt Bt" has been installed on your computer. If not please install it from the ttf file included in the folder.  Otherwise, the font will not rendered properly. You should also put the png files under the building directory to make sure the food icons will appear.
 
-After run the program, a start window will show up. You can choose to start a new game or load a game from gameSave.txt in the building directory. You can also customize the map brefore you start.
+After run the program, a start window will show up. You can choose to start a new game or load a game from gameSave.txt in the building directory. You can also customize the map before you start.
 
 To play the game you can hit the start game button and choose a play mode. Then you would see the game interface. Each time you enters the game interface, you will have 3 seconds to prepare. And the game would accept the keyboard input and change the direction of the snake. Since the snake is randomly generated on the map, you shall make full use of the prepare time in order not to hit the rock when the snake starts to run.
 
