@@ -1,4 +1,3 @@
-# Qt-Snake
 **README**
 
 This is a Snake game created by Qt 5.15.1 MinGW 64-bit.
@@ -31,3 +30,9 @@ When customizing the map, hitting the left mouse key is to add or remove blocks,
 All the interfaces are classes inherited from QWidget, and are children of MainWindow. MainWindow handles all the keyboard input and distribute them to different windows. And it also build communications between the windows (QWidgets), and determines which window to show. The PlayWindow class have a Controller class as a member, which handles the collision of the objects (snakes, blocks, food), the special effect of snakes, the saving and loading of game saves and the communication with interface.
 
 The comments in the codes are already detailed. If you want to know what the function does, you can refer to the header files and see the explanation above. In the cpp files, there are also necessary comments explaining what the code is doing.
+
+
+
+By the way, the codes and docs have been uploaded to github on the website following:
+
+https://github.com/Naplesoul/Qt-Snake
